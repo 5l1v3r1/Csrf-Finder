@@ -1,20 +1,20 @@
-CsrfFinder - Cross-Site Request Forgery Finder
-Author: Alec Blance
+<h2>CsrfFinder - Cross-Site Request <h2>Forgery Finder</h2>
+<h2>Author: Alec Blance</h2>
 
-Compatibility:
+<h2>Compatibility:</h2>
 
     Any system running Python 2.7
 
 
-Requirements:
+<h2>Requirements:</h2>
 
     Python 2.7
 
 
-Description:
+<h2>Description:</h2>
 CsrfFinder is a tool designed for pentesters and hackers , who wants to check for CSRF vulnerability in website's forms. This tool checks how many forms present in the webpage and checks the form if it has the csrf protection activated.
 
-Features:
+<h2>Features:</h2>
 
     Csrf Scanning
     Detecting how many forms present
@@ -22,13 +22,13 @@ Features:
     User-friendly UI
 
  
-Usage:
+<h2>Usage:</h2>
 
 Enter the target url : google.com
 What number of form do you want to scan?: 1 
 
 
-Output
+<h2>Output</h2>
 
 Enter the target url
 
