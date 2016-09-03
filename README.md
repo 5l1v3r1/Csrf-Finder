@@ -1,5 +1,5 @@
 <h2>CsrfFinder - Cross-Site Request <h2>Forgery Finder</h2>
-<h2>Author: Alec Blance</h2>
+Author: Alec Blance
 
 <h2>Compatibility:</h2>
 
