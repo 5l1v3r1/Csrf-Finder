@@ -30,23 +30,19 @@ What number of form do you want to scan?: 1
 
 <h2>Output</h2>
 
-Enter the target url
-
-[+]: google.com
+Enter the target url : google.com
 
 ======================================================
 
 The number of forms present in the http://google.com is 1
 
-1. <form action=/search onsubmit=/>
+1. form action=/search onsubmit=/
 
 ======================================================
 
-What number of form do you want to scan?
+What number of form do you want to scan? 1
 
-[+]: 1
-
-<form action=/search> is VULNERABLE!(Keep in mind that this may be sometimes falsepositive)
+form action=/search is VULNERABLE!(Keep in mind that this may be sometimes falsepositive)
 
 
 <h2>Bugs? Errors?</h2>
