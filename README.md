@@ -1,4 +1,4 @@
-<h2>CsrfFinder - Cross-Site Request Forgery Finder 1.0</h2>
+<h2>CsrfFinder - Cross-Site Request Forgery Finder 1.1</h2>
 Author: Alec Blance
 
 <h2>Supported tokens to scan </h2>
@@ -21,7 +21,8 @@ CsrfFinder is a tool designed for pentesters and hackers , who wants to check fo
 
 <h2>Features:</h2>
 
-    Csrf Scanning
+    Csrf Scanning in Online Websites
+    Csrf Scanning in local file
     Detecting how many forms present
     showing forms that is vulnerable
     User-friendly UI
