@@ -1,5 +1,10 @@
-<h2>CsrfFinder - Cross-Site Request Forgery Finder 1.1</h2>
+<h2>CsrfFinder - Cross-Site Request Forgery Finder 1.0</h2>
 Author: Alec Blance
+
+<h2>Supported tokens to scan </h2>
+If you know some tokens like authenticity_token , token , csrfmiddleware.. 
+This could help in identifying csrf vulnerabilities
+Please tell me on blancealec1@gmail.com
 
 <h2>Compatibility:</h2>
 
