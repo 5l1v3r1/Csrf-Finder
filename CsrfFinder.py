@@ -1,4 +1,4 @@
-#Tool : Csrf Finder 1.0
+#Tool : Csrf Finder 1.1
 #Author : Alec Blance
 #Desc : This tool scans for csrf vulnerability in websites
 
@@ -203,7 +203,15 @@ if choose == "U":
 	        if token1 == None:
 		        token2 = input1.find ("input",{"name":"authenticity_token"})
 		        if token2 == None:
-			        print ("<form action={}> is VULNERABLE!(Keep in mind that this may be sometimes falsepositive)".format(action1))
+				    token3 = input1.find ("input",{"name":"csrfmiddlewaretoken"})
+				    if token3 == None:
+					    token4 = input1.find ("input", {"name":"fb_dtsg"})
+					    if token4 == None:
+						    print ("<form action={}> is Vulnerable! (Keep in mind that this may be sometimes falsepositive)".format (action1))
+					    else:
+						    print ("<form action={}> is Not Vulnerable! (Keep in mind that this may be sometimes falsepositive)".format (action1))
+				    else:
+					    print ("<form action={}> is Not Vulnerable! (Keep in mind that this may be sometimes falsepositive)".format (action1))
 		        else :
 			        print ("<form action={}> is NOT VULNERABLE!(Keep in mind that this may be sometimes falsepositive)".format(action1))
 	        else:
@@ -218,11 +226,19 @@ if choose == "U":
         textt2 = input2.input
         token = input2.find ("input",{"name":"token"})
         if token == None:
-	        token1 = input2.find ("input",{"name":"CSRFTOKEN"})
+	        token1 = input1.find ("input",{"name":"CSRFTOKEN"})
 	        if token1 == None:
-		        token2 = input2.find ("input",{"name":"authenticity_token"})
+		        token2 = input1.find ("input",{"name":"authenticity_token"})
 		        if token2 == None:
-			        print ("<form action={}> is VULNERABLE!(Keep in mind that this may be sometimes falsepositive)".format(action2))
+				    token3 = input1.find ("input",{"name":"csrfmiddlewaretoken"})
+				    if token3 == None:
+					    token4 = input1.find ("input", {"name":"fb_dtsg"})
+					    if token4 == None:
+						    print ("<form action={}> is Vulnerable! (Keep in mind that this may be sometimes falsepositive)".format (action2))
+					    else:
+						    print ("<form action={}> is Not Vulnerable! (Keep in mind that this may be sometimes falsepositive)".format (action2))
+				    else:
+					    print ("<form action={}> is Not Vulnerable! (Keep in mind that this may be sometimes falsepositive)".format (action2))
 		        else :
 			        print ("<form action={}> is NOT VULNERABLE!(Keep in mind that this may be sometimes falsepositive)".format(action2))
 	        else:
@@ -236,11 +252,19 @@ if choose == "U":
         action3 = input3 ['action']
         token = input3.find ("input",{"name":"token"})
         if token == None:
-	        token1 = input3.find ("input",{"name":"CSRFTOKEN"})
+	        token1 = input1.find ("input",{"name":"CSRFTOKEN"})
 	        if token1 == None:
-		        token2 = input3.find ("input",{"name":"authenticity_token"})
+		        token2 = input1.find ("input",{"name":"authenticity_token"})
 		        if token2 == None:
-			        print ("<form action={}> is VULNERABLE!(Keep in mind that this may be sometimes falsepositive)".format(action3))
+				    token3 = input1.find ("input",{"name":"csrfmiddlewaretoken"})
+				    if token3 == None:
+					    token4 = input1.find ("input", {"name":"fb_dtsg"})
+					    if token4 == None:
+						    print ("<form action={}> is Vulnerable! (Keep in mind that this may be sometimes falsepositive)".format (action3))
+					    else:
+						    print ("<form action={}> is Not Vulnerable! (Keep in mind that this may be sometimes falsepositive)".format (action3))
+				    else:
+					    print ("<form action={}> is Not Vulnerable! (Keep in mind that this may be sometimes falsepositive)".format (action3))
 		        else :
 			        print ("<form action={}> is NOT VULNERABLE!(Keep in mind that this may be sometimes falsepositive)".format(action3))
 	        else:
@@ -254,11 +278,19 @@ if choose == "U":
         action4 = input4 ['action']
         token = input4.find ("input",{"name":"token"})
         if token == None:
-	        token1 = input4.find ("input",{"name":"CSRFTOKEN"})
+	        token1 = input1.find ("input",{"name":"CSRFTOKEN"})
 	        if token1 == None:
-		        token2 = input4.find ("input",{"name":"authenticity_token"})
+		        token2 = input1.find ("input",{"name":"authenticity_token"})
 		        if token2 == None:
-			        print ("<form action={}> is VULNERABLE!(Keep in mind that this may be sometimes falsepositive)".format(action4))
+				    token3 = input1.find ("input",{"name":"csrfmiddlewaretoken"})
+				    if token3 == None:
+					    token4 = input1.find ("input", {"name":"fb_dtsg"})
+					    if token4 == None:
+						    print ("<form action={}> is Vulnerable! (Keep in mind that this may be sometimes falsepositive)".format (action4))
+					    else:
+						    print ("<form action={}> is Not Vulnerable! (Keep in mind that this may be sometimes falsepositive)".format (action4))
+				    else:
+					    print ("<form action={}> is Not Vulnerable! (Keep in mind that this may be sometimes falsepositive)".format (action4))
 		        else :
 			        print ("<form action={}> is NOT VULNERABLE!(Keep in mind that this may be sometimes falsepositive)".format(action4))
 	        else:
@@ -272,15 +304,23 @@ if choose == "U":
         action5 = input5 ['action']
         token = input5.find ("input",{"name":"token"})
         if token == None:
-	        token1 = input5.find ("input",{"name":"CSRFTOKEN"})
+	        token1 = input1.find ("input",{"name":"CSRFTOKEN"})
 	        if token1 == None:
-		        token2 = input5.find ("input",{"name":"authenticity_token"})
+		        token2 = input1.find ("input",{"name":"authenticity_token"})
 		        if token2 == None:
-			        print ("<form action={}> is VULNERABLE!(Keep in mind that this may be sometimes falsepositive)".format(action5))
+				    token3 = input1.find ("input",{"name":"csrfmiddlewaretoken"})
+				    if token3 == None:
+					    token4 = input1.find ("input", {"name":"fb_dtsg"})
+					    if token4 == None:
+						    print ("<form action={}> is Vulnerable! (Keep in mind that this may be sometimes falsepositive)".format (action5))
+					    else:
+						    print ("<form action={}> is Not Vulnerable! (Keep in mind that this may be sometimes falsepositive)".format (action5))
+				    else:
+					    print ("<form action={}> is Not Vulnerable! (Keep in mind that this may be sometimes falsepositive)".format (action5))
 		        else :
 			        print ("<form action={}> is NOT VULNERABLE!(Keep in mind that this may be sometimes falsepositive)".format(action5))
 	        else:
-		        print ("<form action={}> is NOT VULNERABLE! (Keep in mind that this may be sometimes falsepositive)".format(action5))
+		        print ("<form action={}> is NOT VULNERABLE!(Keep in mind that this may be sometimes falsepositive)".format(action5))
         else :
 	        print ("<form action={}> is NOT VULNERABLE!(Keep in mind that this may be sometimes falsepositive)".format(action5))
     exit ()
