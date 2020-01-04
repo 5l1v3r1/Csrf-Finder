@@ -1,5 +1,5 @@
-<h1>--- This is not maintained and is a simple program released as I started to learn python ---</h1>
-<h2> I will surely release some pentesting tools which can be useful for reconnaisance </h2>
+<h2>--- This is not maintained and is a simple program released as I started to learn python ---</h2>
+
 
 
 <h2>CsrfFinder - Cross-Site Request Forgery Finder 1.1</h2>
