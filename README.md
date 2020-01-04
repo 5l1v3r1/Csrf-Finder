@@ -1,10 +1,13 @@
+<h1>--- This is not maintained and is a simple program released as I started to learn python ---</h1>
+<h2> I will surely release some pentesting tools which can be useful for reconnaisance </h2>
+
+
 <h2>CsrfFinder - Cross-Site Request Forgery Finder 1.1</h2>
 Author: Alec Blance
 
 <h2>Supported tokens to scan </h2>
 If you know some tokens like authenticity_token , token , csrfmiddleware.. 
 This could help in identifying csrf vulnerabilities
-Please tell me on blancealec1@gmail.com
 
 <h2>Compatibility:</h2>
 
@@ -53,4 +56,3 @@ form action=/search is VULNERABLE!(Keep in mind that this may be sometimes false
 
 <h2>Bugs? Errors?</h2>
 http://facebook.com/alec.blance
-blancealec1@gmail.com
